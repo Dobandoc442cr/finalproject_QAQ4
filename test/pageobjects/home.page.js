@@ -3,7 +3,7 @@ const Page = require('./page');
 /**
  * sub page containing specific selectors and methods for a specific page
  */
-class HomePahe extends Page {
+class HomePage extends Page {
     /**
      * define selectors using getter methods
      */
@@ -21,4 +21,4 @@ class HomePahe extends Page {
     }
 }
 
-module.exports = new HomePahe();
+module.exports = new HomePage();
